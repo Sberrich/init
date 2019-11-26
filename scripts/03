@@ -1,0 +1,10 @@
+#!/bin/bash
+
+MAX=2.0
+PART=$(echo "/dev/sr0") 
+USE=$(df -h | grep $PART | awk '{ print $3}' | awk '{print ($0+0)}')
+
+if (( $(echo "$USE > $MAX" |bc -l) )); then
+	  echo "Percent used: $USE" | mail -s "Running out of disk space" darksamir2012@gmail.com
+fi
+

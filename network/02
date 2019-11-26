@@ -1,0 +1,1 @@
+eval ifconfig en0 inet && ping -c2 10.12.255.255

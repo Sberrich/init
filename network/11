@@ -1,0 +1,7 @@
+# here is the output of the previouse command :
+
+1  10.12.254.254 (10.12.254.254)  0.829 ms  0.429 ms  0.431 ms
+2  nat (10.21.1.1)  0.333 ms  0.287 ms  0.308 ms
+3  ll81-29-217-192-81.ll81.iam.net.ma (81.192.217.29)  0.357 ms  4.121 ms  0.448 ms
+
+as you can see the device who link my local network and the outside world is the NAT "network address translation" .
